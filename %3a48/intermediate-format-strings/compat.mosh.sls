@@ -23,9 +23,7 @@
 ;; DEALINGS IN THE SOFTWARE.
 
 (library (srfi :48 intermediate-format-strings compat)
-  (export
-    pretty-print
-    ascii-tab)
+  (export pretty-print)
   (import
    (only (rnrs base) define)
     (only (mosh pp) pretty-print))
