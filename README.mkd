@@ -1,0 +1,14 @@
+This is a set of compatibility files for Mosh that supports the
+scheme-libraries-team SRFI collection.
+
+Requires the SRFI collection to be installed under 
+`/usr/local/share/scheme/r6rs/srfi`.
+
+This was created as the scheme-libraries-team [is not currently
+accepting patches for new
+implementations](https://answers.launchpad.net/scheme-libraries/+question/59965).
+
+Run `make install` to copy in the appropriate files to your tree.
+
+You'll need to modify `MOSH_LOADPATH` if you want the SLT SRFI code
+tree to take precedence over the SRFI tree that is bundled with Mosh.
